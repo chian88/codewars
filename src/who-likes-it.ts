@@ -11,6 +11,6 @@ export const likes = (a: string[]): string => {
   } else if (numberOfLikes === 3) {
     return `${a[0]}, ${a[1]} and ${a[2]} like this`;
   } else {
-    return `${a[0]}, ${a[1]} and ${numberOfLikes - 2} like this`;
+    return `${a[0]}, ${a[1]} and ${numberOfLikes - 2} others like this`;
   }
 }
